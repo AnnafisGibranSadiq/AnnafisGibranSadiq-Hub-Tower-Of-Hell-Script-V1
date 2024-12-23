@@ -1,0 +1,340 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "AnnafisGibranSadiq Hub Tower Of Hell V1", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+--[[
+Name = <string> - The name of the UI.
+HidePremium = <bool> - Whether or not the user details shows Premium status or not.
+SaveConfig = <bool> - Toggles the config saving in the UI.
+ConfigFolder = <string> - The name of the folder where the configs are saved.
+IntroEnabled = <bool> - Whether or not to show the intro animation.
+IntroText = <string> - Text to show in the intro animation.
+IntroIcon = <string> - URL to the image you want to use in the intro animation.
+Icon = <string> - URL to the image you want displayed on the window.
+CloseCallback = <function> - Function to execute when the window is closed.
+]]
+
+local Gear = Window:MakeTab({
+    Name = "Gear",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+Gear:AddButton({
+    Name = "Give Infinite Jump Gear (Warning 1 Time Use)",
+    Callback = function()
+              print("button pressed")
+game.ReplicatedStorage.Gear.jump.Parent = game.Players.LocalPlayer.Backpack
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Gear:AddButton({
+    Name = "Give Gravity Gear (Warning 1 Time Use)",
+    Callback = function()
+              print("button pressed")
+game.ReplicatedStorage.Gear.gravity.Parent = game.Players.LocalPlayer.Backpack
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Gear:AddButton({
+    Name = "Give Speed Gear (Warning 1 Time Use)",
+    Callback = function()
+              print("button pressed")
+game.ReplicatedStorage.Gear.speed.Parent = game.Players.LocalPlayer.Backpack
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Gear:AddButton({
+    Name = "Give yxTerminator Gear (Warning 1 Time Use)",
+    Callback = function()
+              print("button pressed")
+game.ReplicatedStorage.Gear.yxterminator.Parent = game.Players.LocalPlayer.Backpack
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Gear:AddButton({
+    Name = "Give Bomb Gear (Warning 1 Time Use)",
+    Callback = function()
+              print("button pressed")
+game.ReplicatedStorage.Gear.bomb.Parent = game.Players.LocalPlayer.Backpack
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Gear:AddButton({
+    Name = "Give Cola Gear (Warning 1 Time Use)",
+    Callback = function()
+              print("button pressed")
+game.ReplicatedStorage.Gear.cola.Parent = game.Players.LocalPlayer.Backpack
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Gear:AddButton({
+    Name = "Give Hourglass Gear (Warning 1 Time Use)",
+    Callback = function()
+              print("button pressed")
+game.ReplicatedStorage.Gear.hourglass.Parent = game.Players.LocalPlayer.Backpack
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Gear:AddButton({
+    Name = "Give KillPart Gear (Warning 1 Time Use)",
+    Callback = function()
+              print("button pressed")
+game.ReplicatedStorage.Gear.killpart.Parent = game.Players.LocalPlayer.Backpack
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Gear:AddButton({
+    Name = "Give Fusion Gear (Warning 1 Time Use)",
+    Callback = function()
+              print("button pressed")
+game.ReplicatedStorage.Gear.fusion.Parent = game.Players.LocalPlayer.Backpack
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Gear:AddButton({
+    Name = "Give Hook Gear (Warning 1 Time Use)",
+    Callback = function()
+              print("button pressed")
+game.ReplicatedStorage.Gear.hook.Parent = game.Players.LocalPlayer.Backpack
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Gear:AddButton({
+    Name = "Give Trowel Gear (Warning 1 Time Use)",
+    Callback = function()
+              print("button pressed")
+game.ReplicatedStorage.Gear.trowel.Parent = game.Players.LocalPlayer.Backpack
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Gear:AddButton({
+    Name = "Give Banana Gear (Warning 1 Time Use)",
+    Callback = function()
+              print("button pressed")
+game.ReplicatedStorage.Gear.banana.Parent = game.Players.LocalPlayer.Backpack
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Gear:AddButton({
+    Name = "Give Fishing Rod Gear (Warning 1 Time Use)",
+    Callback = function()
+              print("button pressed")
+game.ReplicatedStorage.Gear.fishingrod.Parent = game.Players.LocalPlayer.Backpack
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Gear:AddButton({
+    Name = "Give All Gear (Warning 1 Time Use)",
+    Callback = function()
+              print("button pressed")
+loadstring(game:HttpGet('https://pastebin.com/raw/qBqbjQyn'))()
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+local Player = Window:MakeTab({
+	Name = "Player",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+Player:AddButton({
+	Name = "GodMode",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))()
+  	end    
+})
+
+Player:AddButton({
+	Name = "WalkSpeed 50",
+	Callback = function()
+      		print("button pressed")
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Player:AddButton({
+	Name = "WalkSpeed 100",
+	Callback = function()
+      		print("button pressed")
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Player:AddButton({
+	Name = "JumpPower 100",
+	Callback = function()
+      		print("button pressed")
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Player:AddButton({
+	Name = "JumpPower 200",
+	Callback = function()
+      		print("button pressed")
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 200
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Player:AddButton({
+	Name = "Fusion 50 And 100",
+	Callback = function()
+      		print("button pressed")
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+  	end    
+})
+
+Player:AddButton({
+	Name = "Fusion 100 And 200",
+	Callback = function()
+      		print("button pressed")
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 200
+  	end    
+})
+
+Player:AddButton({
+	Name = "Fly",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+  	end    
+})
+
+local Settings = Window:MakeTab({
+	Name = "Settings",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+Settings:AddButton({
+	Name = "Keyboard Mobile",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GGH52lan/GGH52lan/main/keyboard.txt"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Settings:AddButton({
+	Name = "Infinite Yield V6.1",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
